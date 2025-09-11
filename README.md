@@ -36,4 +36,11 @@ nix-channel --update
 nix-shell '<home-manager>' -A install
 ```
 
+### Rebuild the configuration
 
+```
+git clone https://github.com/DXC-0/Nix-Dotfiles.git
+cd Nix-Dotfiles
+mkdir -p $HOME/.config/home-manager
+mv * $HOME/.config/home-manager
+```
