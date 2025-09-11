@@ -1,3 +1,5 @@
+> I manage my dotfiles with Nix and Homemanager on the atomic and immutable distribution Fedora Kinoite. I use nix packages to avoid flatpak and layering to the base image.
+
 ### Preparation
 
 ```bash
