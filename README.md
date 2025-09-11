@@ -1,4 +1,4 @@
-> I manage my dotfiles with Nix and Homemanager on the atomic and immutable distribution Fedora Kinoite. I use nix packages to avoid flatpak and layering to the base image. Nixpkgs is one of the largest linux package bases, for what is not available I use podman containers.
+> I manage my dotfiles with Nix and Homemanager on the atomic and immutable distribution [Fedora Kinoite](https://fedoraproject.org/atomic-desktops/kinoite/). I use nix packages to avoid flatpak and layering to the base image. Nixpkgs is one of the largest linux package bases, for what is not available I use podman containers. Home-manager control absolutely everything declaratively and even deployment with rpm-ostree.
 
 ### Preparation
 
