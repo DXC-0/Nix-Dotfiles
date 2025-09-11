@@ -44,3 +44,7 @@ cd Nix-Dotfiles
 mkdir -p $HOME/.config/home-manager
 mv * $HOME/.config/home-manager
 ```
+
+```
+home-manager switch
+```
