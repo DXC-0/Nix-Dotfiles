@@ -1,5 +1,7 @@
 > I manage my dotfiles with [Nix](https://nixos.org/) and [Homemanager](https://github.com/nix-community/home-manager) on the atomic and immutable distribution [Fedora Kinoite](https://fedoraproject.org/atomic-desktops/kinoite/). I use nix packages to avoid flatpak and layering to the base image. Nixpkgs is one of the largest linux package bases, for what is not available I use podman containers. Home-manager control absolutely everything declaratively and even deployment with [rpm-ostree](https://coreos.github.io/rpm-ostree/).
 
+[![kinoite-nix.png](https://i.postimg.cc/vTyFVYww/kinoite-nix.png)](https://postimg.cc/S2gv0pKg)
+
 ### Preparation
 
 ```bash
