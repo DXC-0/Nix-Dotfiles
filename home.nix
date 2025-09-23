@@ -44,7 +44,6 @@
     ./applications/vesktop.nix
     ./applications/rpm-packages.nix
     ./applications/rpm-nvidia.nix
-    ./applications/protonge-custom.nix
     ./applications/mpv.nix
   ];
 
