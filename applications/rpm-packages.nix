@@ -1,7 +1,7 @@
 { config, lib, pkgs, ... }:
 
 let
-  appPackages = [ "alacritty" "steam" "mpv" ];
+  appPackages = [ "alacritty" "steam" "mpv" "libavcodec-freeworld" "ffmpeg" ];
 in {
   home.activation.installApps = lib.hm.dag.entryAfter ["writeBoundary"] ''
     for pkg in ${lib.concatStringsSep " " appPackages}; do
