@@ -27,6 +27,7 @@
     flameshot
     libreoffice
     neovim
+    ansible
   ];
 
   imports = [
@@ -40,7 +41,6 @@
     ./applications/btop.nix
     ./applications/signal.nix
     ./applications/mimeapps.nix
-   # ./applications/kde-config.nix
     ./applications/vesktop.nix
     ./applications/rpm-packages.nix
     ./applications/rpm-nvidia.nix
