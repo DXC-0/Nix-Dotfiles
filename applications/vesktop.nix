@@ -9,6 +9,7 @@
       autoUpdate = true;
       startMinimized = false;
       hardwareAcceleration = true;
+      discordBranch = "canary";
     };
 
 vencord.settings = {
@@ -67,7 +68,7 @@ vencord.settings = {
     BetterSessions = { enabled = false; };
     BetterSettings = { enabled = false; };
     BetterUploadButton = { enabled = false; };
-    BiggerStreamPreview = { enabled = true; };
+    BiggerStreamPreview = { enabled = false; };
     BlurNSFW = { enabled = false; };
     CallTimer = { enabled = false; };
     ClearURLs = { enabled = false; };
